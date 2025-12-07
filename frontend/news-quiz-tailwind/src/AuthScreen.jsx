@@ -129,7 +129,7 @@ function AuthScreen({ onLogin, onGuestPlay }) {
    };
 
    return (
-      <div className="w-full max-w-sm mx-auto bg-gray-900/80 backdrop-blur-sm p-5 rounded-lg shadow-lg translate-x-24">
+      <div className="w-full max-w-sm mx-auto bg-gray-900/80 backdrop-blur-sm p-5 rounded-lg shadow-lg">
          <div className="flex justify-center mb-4">
             <UserCircle className="w-12 h-12 text-blue-400" />
          </div>

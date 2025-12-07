@@ -643,8 +643,14 @@ export default function App() {
 
          {/* Leaderboard modal - only show when triggered from the button */}
          {showLeaderboard && !showAuthScreen && !started && (
-            <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
-               <div className="bg-gray-800 rounded-lg">
+            <div
+               className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"
+               onClick={() => setShowLeaderboard(false)} 
+            >
+               <div
+                  className="bg-gray-800 rounded-lg max-w-lg w-full"
+                  onClick={(e) => e.stopPropagation()}      
+               >
                   <Leaderboard
                      currentUser={user}
                      onClose={() => setShowLeaderboard(false)}
@@ -652,6 +658,7 @@ export default function App() {
                </div>
             </div>
          )}
+
 
          <footer className="text-center text-xs text-gray-400 py-6">
             © All rights reserved to Benny Giorno
@@ -667,8 +674,11 @@ export default function App() {
 // New container that holds both AuthScreen and HomeScreen with the same background
 function HomeContainer({ showAuthScreen, user, onLogin, showInfo, setShowInfo, showLeaderboard, setShowLeaderboard, setStarted, yesterdayStr }) {
    return (
-      <div className="relative w-full max-w-4xl aspect-video rounded-3xl
-                 overflow-hidden shadow-lg bg-gray-800/30 backdrop-blur-sm mx-auto mt-12 interactive-container">
+      <div className="relative w-full max-w-4xl
+              rounded-3xl overflow-hidden shadow-lg
+              bg-gray-800/30 backdrop-blur-sm
+              mx-auto mt-12 interactive-container
+              min-h-[480px] py-8">
 
          {/* Robot image background with animations */}
          <img
