@@ -507,9 +507,6 @@ Just include the original copyright notice and license.
 ## 👨‍💻 Author
 
 **Benny Giorno**
-- 🔗 GitHub: [@BennyGi](https://github.com/BennyGi)
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 **Feel free to reach out with questions, suggestions, or just to say hi!** 👋
 
@@ -523,17 +520,6 @@ Just include the original copyright notice and license.
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) – Styling
 - ⚡ [Vite](https://vitejs.dev/) – Build tooling
 - 🔧 [.NET](https://dotnet.microsoft.com/) – Backend framework
-
----
-
-## 📞 Support
-
-Need help?
-
-- 📖 Check the [Troubleshooting](#-troubleshooting) section
-- 🔗 Search existing [GitHub Issues](https://github.com/BennyGi/NewsQuizAI/issues)
-- 💬 Open a new [Discussion](https://github.com/BennyGi/NewsQuizAI/discussions)
-- 📧 Email the author
 
 ---
 
