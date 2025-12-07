@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionText": "Who did the Syrian president accuse of exploiting Oct. 7 according to a recent headline?",
+    "Answers": [
+      "Turkey",
+      "United States",
+      "Russia",
+      "Israel"
+    ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "QuestionText": "Which organization does Israel claim knows the location of slain hostage Ran Gvili?",
+    "Answers": [
+      "Hezbollah",
+      "ISIS",
+      "Al-Qaeda",
+      "Hamas and PIJ"
+    ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "QuestionText": "According to a recent headline, who warned that blocking Trump\u2019s Gaza plan would be a \u2018huge failure\u2019 for the US and the world?",
+    "Answers": [
+      "United Kingdom",
+      "Russia",
+      "China",
+      "Turkey"
+    ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "QuestionText": "Where is the fast-growing church that young adults are lining up to worship at, according to a recent headline?",
+    "Answers": [
+      "Chicago",
+      "New York",
+      "Atlanta",
+      "Los Angeles"
+    ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "QuestionText": "Who was recently arrested by the Lebanese army after an attack on UN peacekeepers in the south?",
+    "Answers": [
+      "Four insurgents",
+      "Five terrorists",
+      "Six gunmen",
+      "Three rebels"
+    ],
+    "CorrectAnswerIndex": 2
+  }
+]

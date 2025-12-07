@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vsidx
+*.log
+
+# Node / React
+node_modules/
+dist/
+
+# .NET build outputs
+bin/
+obj/
+publish/
+
+# Secrets / configs
+.env
+backend/appsettings.json
+backend/appsettings.Development.json
+backend/appsettings.local.json
+*.key
+*.pem
+*.secret

@@ -1,0 +1,24 @@
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.vsidx
+*.log
+
+# Node / React
+node_modules/
+dist/
+
+# Environment & secret files
+.env
+appsettings.json
+appsettings.Development.json
+appsettings.local.json
+*.key
+*.pem
+*.secret
+
+# Build outputs
+bin/
+obj/
+publish/
