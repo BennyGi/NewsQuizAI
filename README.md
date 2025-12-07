@@ -10,9 +10,7 @@ An interactive **daily quiz application** that tests how well you remember **yes
 
 ## 🎬 Demo Video
 
-<video src="assets/NewsQuizAI.mp4" controls width="600"></video>
-
-Watch the app in action!
+[![Watch the demo video](https://img.shields.io/badge/▶️%20Watch-Demo%20Video-blue?style=for-the-badge)](assets/NewsQuizAI.mp4)
 
 ## 🎯 Overview
 
