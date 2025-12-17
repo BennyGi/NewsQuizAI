@@ -1,4 +1,4 @@
-# 📰 NewsQuiz AI – Daily AI-Powered News Quiz
+# 📰 NewsQuiz AI - Daily AI-Powered News Quiz
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![.NET](https://img.shields.io/badge/.NET-7.0+-512BD4?logo=.net)](https://dotnet.microsoft.com/download)
@@ -64,21 +64,21 @@ NewsQuiz AI is a modern, full-stack web application that:
 
 ### Backend
 - **C# / .NET** (7.0+)
-- **OpenAI SDK** – GPT models for question generation
-- **NewsAPI.org SDK** – Real-time news data
-- **System.Text.Json** – JSON handling
-- **Scheduled Services** – Daily automation
+- **OpenAI SDK** - GPT models for question generation
+- **NewsAPI.org SDK** - Real-time news data
+- **System.Text.Json** - JSON handling
+- **Scheduled Services** - Daily automation
 
 ### Frontend
-- **React 18+** – UI framework
-- **Vite** – Fast build tool & dev server
-- **Tailwind CSS 3+** – Utility-first styling
-- **lucide-react** – Beautiful icons
-- **LocalStorage API** – Client-side persistence
+- **React 18+** - UI framework
+- **Vite** - Fast build tool & dev server
+- **Tailwind CSS 3+** - Utility-first styling
+- **lucide-react** - Beautiful icons
+- **LocalStorage API** - Client-side persistence
 
 ### External APIs
-- 🔗 [NewsAPI.org](https://newsapi.org/) – News headlines
-- 🤖 [OpenAI API](https://platform.openai.com/) – Quiz generation
+- 🔗 [NewsAPI.org](https://newsapi.org/) - News headlines
+- 🤖 [OpenAI API](https://platform.openai.com/) - Quiz generation
 
 ---
 
@@ -128,7 +128,7 @@ Create a new file `appsettings.json` in the backend root:
 ⚠️ **Important:**
 - Replace API keys with your actual keys
 - `OutputPath` must be **absolute path** to `questions.json` in the frontend public folder
-- `appsettings.json` is in `.gitignore` – never commit API keys!
+- `appsettings.json` is in `.gitignore` - never commit API keys!
 
 #### Restore & Run Backend
 
@@ -239,9 +239,9 @@ var url = $"https://newsapi.org/v2/everything" +
 - Builds a **prompt** with all yesterday's headlines
 - Requests **5 multiple-choice questions** in JSON format
 - Each question has:
-  - `QuestionText` – the question
-  - `Answers[4]` – four possible answers
-  - `CorrectAnswerIndex` – correct answer position (0-3, randomized)
+  - `QuestionText` - the question
+  - `Answers[4]` - four possible answers
+  - `CorrectAnswerIndex` - correct answer position (0-3, randomized)
 - Validates response and shuffles answers
 
 ```csharp
@@ -289,8 +289,8 @@ The backend runs as a **long-lived service**:
 You can:
 - Run `dotnet run` manually and keep the console open
 - Use **Windows Task Scheduler** with helper scripts (optional):
-  - `generate-question.bat` – Run manually
-  - `setup-scheduled-task.bat` – Auto-schedule
+  - `generate-question.bat` - Run manually
+  - `setup-scheduled-task.bat` - Auto-schedule
 
 ---
 
@@ -492,7 +492,7 @@ Please **open an issue** on GitHub with:
 
 ## 📝 License
 
-This project is licensed under the **MIT License** – see [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
 
 You are free to:
 - ✅ Use commercially
@@ -514,12 +514,12 @@ Just include the original copyright notice and license.
 
 ## 🙏 Acknowledgments
 
-- 📰 [NewsAPI.org](https://newsapi.org/) – Real-time news data
-- 🤖 [OpenAI](https://openai.com/) – Powerful AI models
-- ⚛️ [React](https://reactjs.org/) – UI framework
-- 🎨 [Tailwind CSS](https://tailwindcss.com/) – Styling
-- ⚡ [Vite](https://vitejs.dev/) – Build tooling
-- 🔧 [.NET](https://dotnet.microsoft.com/) – Backend framework
+- 📰 [NewsAPI.org](https://newsapi.org/) - Real-time news data
+- 🤖 [OpenAI](https://openai.com/) - Powerful AI models
+- ⚛️ [React](https://reactjs.org/) - UI framework
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) - Styling
+- ⚡ [Vite](https://vitejs.dev/) - Build tooling
+- 🔧 [.NET](https://dotnet.microsoft.com/) - Backend framework
 
 ---
 
